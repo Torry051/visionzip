@@ -1,0 +1,5 @@
+{
+  "dataset": "lmms-lab-encoder/textvqa",
+  "revision": "9c0699cd19768ac5ab97568f6b3cbac4c0062884",
+  "split": "validation"
+}

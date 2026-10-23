@@ -1,0 +1,12 @@
+{
+  "dataset": "lmms-lab-encoder/GQA",
+  "dataset_revision": "a6e72d6e1b912da88af8b2f9eba05d5ea8ec2dd8",
+  "dataset_configs": ["testdev_balanced_instructions", "testdev_balanced_images"],
+  "dataset_split": "testdev",
+  "evaluator_file": "official_gqa_eval.py",
+  "evaluator_source": "https://gist.githubusercontent.com/haotian-liu/db6eddc2a984b4cbcc8a7f26fd523187/raw/1ea66a1ec74e823a66d182c81a5dfac42bb6381d/1_eval.py",
+  "evaluator_sha256": "787ca40d8c06d09e4e4a053259f84a4ca3ca431a6fdd8d6fb3003109f013fbdf",
+  "evaluator_changes": "None; copied verbatim from the GQA evaluator linked by LLaVA documentation. Accuracy only is used for the main result.",
+  "prediction_conversion": "https://github.com/haotian-liu/LLaVA/blob/main/scripts/convert_gqa_for_eval.py",
+  "scope": "Full GQA testdev_balanced comparison in existing LLaVA-1.5-7B environment; not all-paper benchmark coverage."
+}
